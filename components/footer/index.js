@@ -1,14 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import * as Icon from "react-icons/fa";
-import footerLogo from "../../assets/images/footerLogo.png";
+import footerLogo from "./../../assets/images/footerLogo.png";
 
 const Footer = () => {
   return (
     <div className="footerWrapper">
       <div className="row footer">
         <div className="col footerColumn">
-          <img alt="footerLogo" src={footerLogo} className="footerLogo" />
+          <Image alt="footerLogo" src={footerLogo} className="footerLogo" />
         </div>
         <div className="w-100" />
         <div className="col footerColumn">
@@ -16,11 +17,11 @@ const Footer = () => {
             <Link href="/blog">Blog</Link>
           </h6>
           <h6>
-            <a href="/#about">About</a>
+            <Link href="/#about">About</Link>
           </h6>
           {/* <h6>Gallery</h6> */}
           <h6>
-            <a href="/#about">Feedback</a>
+            <Link href="/#about">Feedback</Link>
           </h6>
           <h6>
             <a

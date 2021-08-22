@@ -1,9 +1,9 @@
 import React from "react";
-import clientImage from "../../assets/images/clientImage.png";
-import clientBg from "../../assets/images/userBg.png";
-import book from "../../assets/images/book.jpg";
+import clientImage from "./../../assets/images/clientImage.png";
+import clientBg from "./../../assets/images/userBg.png";
+import book from "./../../assets/images/book.jpg";
 import Footer from "../footer";
-
+import Image from "next/image";
 
 const Landing = () => {
   return (
@@ -11,14 +11,14 @@ const Landing = () => {
       <div className="row home">
         <div className="col-sm clientImageWrapper">
           <div className="imageNameWrapper">
-            <img
+            <Image
               src={clientBg}
               className="clientBackground"
               alt="client Background"
               draggable={false}
             />
             <div className="clientImageOuter">
-              <img
+              <Image
                 alt="Satindra Kumar Nath"
                 src={clientImage}
                 className="clientImage"
@@ -47,7 +47,7 @@ const Landing = () => {
       </div>
       <div className="about" id="about">
         <div className="image">
-          <img src={book} draggable={false} alt="books" />
+          <Image src={book} draggable={false} alt="books" />
         </div>
         <div className="text">
           <div className="textInner">
