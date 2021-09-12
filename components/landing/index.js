@@ -24,12 +24,12 @@ const Landing = () => {
                 className="clientImage"
                 draggable={false}
               />
-            </div>
-            <div className="innerText">
-              <div className="textElements">
-                <h1 className="imageName">Satindra</h1>
-                <h1 className="imageSurname">Kumar&nbsp;Nath</h1>
-                <div className="imageGradient" />
+              <div className="innerText">
+                <div className="textElements">
+                  <h1 className="imageName">Satindra</h1>
+                  <h1 className="imageSurname">Kumar&nbsp;Nath</h1>
+                  <div className="imageGradient" />
+                </div>
               </div>
             </div>
           </div>

@@ -11,8 +11,10 @@ const NavBar = () => {
     <nav className="nav">
       <ul className="navItems">
         <li className="navTitleIcon">
-          <Link href="/" passHref>
-            <Image alt="blogIcon" src={blogo} className="blogIcon" />
+          <Link href="/" passHref={true}>
+            <span>
+              <Image alt="blogIcon" src={blogo} className="blogIcon" />
+            </span>
           </Link>
         </li>
         <li className="navTitle">

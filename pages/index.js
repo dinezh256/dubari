@@ -6,10 +6,13 @@ import NavBar from "../components/navbar";
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Dubari - Satindra Kumar Nath</title>
-      <meta title="description" content="Dubari - an assamese literature website" />
-    </Head>
+      <Head>
+        <title>Dubari - Satindra Kumar Nath</title>
+        <meta
+          title="description"
+          content="Dubari - an assamese literature website"
+        />
+      </Head>
       <NavBar />
       <Landing />
     </>
