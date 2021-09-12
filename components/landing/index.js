@@ -16,6 +16,7 @@ const Landing = () => {
               className="clientBackground"
               alt="client Background"
               draggable={false}
+              priority={true}
             />
             <div className="clientImageOuter">
               <Image
@@ -23,6 +24,7 @@ const Landing = () => {
                 src={clientImage}
                 className="clientImage"
                 draggable={false}
+                priority={true}
               />
               <div className="innerText">
                 <div className="textElements">
@@ -47,7 +49,7 @@ const Landing = () => {
       </div>
       <div className="about" id="about">
         <div className="image">
-          <Image src={book} draggable={false} alt="books" />
+          <Image src={book} draggable={false} alt="books" priority={true} />
         </div>
         <div className="text">
           <div className="textInner">

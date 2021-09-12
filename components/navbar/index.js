@@ -13,7 +13,7 @@ const NavBar = () => {
         <li className="navTitleIcon">
           <Link href="/" passHref={true}>
             <span>
-              <Image alt="blogIcon" src={blogo} className="blogIcon" />
+              <Image alt="blogIcon" src={blogo} className="blogIcon" priority={true} />
             </span>
           </Link>
         </li>
@@ -60,6 +60,7 @@ const LanguageDropdown = ({ selected, setLanguage }) => {
           draggable={false}
           src={language}
           className="languageIcon"
+          priority={true}
         />
       </h6>
 
