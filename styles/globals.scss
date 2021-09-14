@@ -596,7 +596,7 @@ $Kokila: "Kokila";
           }
           padding: 0 15px;
           margin-top: 5px;
-          font-size: 28px;
+          font-size: 20px;
           z-index: 1;
         }
 
@@ -620,8 +620,13 @@ $Kokila: "Kokila";
 
       .text {
         padding: 2.5% 5% 7.5% 5%;
+        height: 100vh;
 
         .textInner {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
           h2 {
             font-size: 28px;
           }
@@ -679,7 +684,7 @@ $Kokila: "Kokila";
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: $DeepGreen;
+  background-color: $LightBrown;
 
   .image {
     width: 50%;
@@ -697,7 +702,7 @@ $Kokila: "Kokila";
   .text {
     width: 50%;
     color: white;
-    padding: 2.5% 11.5%;
+    padding: 2.5% 11%;
     margin: auto;
 
     .textInner {
@@ -705,17 +710,19 @@ $Kokila: "Kokila";
       user-select: none;
       h1 {
         font-size: 48px;
-        color: $LightBrown;
-        font-weight: 500;
+        color: $DeepGreen;
+        font-weight: 600;
         margin-bottom: 1rem;
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 25px;
         letter-spacing: 1px;
         line-height: 32px;
         font-weight: 500;
         white-space: pre-line;
+        color: rgb(63, 33, 33);
+        text-align: justify;
       }
     }
   }
@@ -731,6 +738,7 @@ $Kokila: "Kokila";
     font-size: 28px;
     user-select: none;
     font-weight: 600;
+    text-align: justify;
   }
 }
 
