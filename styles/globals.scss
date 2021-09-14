@@ -385,7 +385,8 @@ $Kokila: "Kokila";
   font-size: 2.2vw;
   color: $DarkGreen;
   user-select: none;
-  margin-top: -8px;
+  margin-top: -10px;
+  margin-bottom: 15px;
   margin-left: 10px;
   z-index: 2;
   position: relative;
@@ -427,6 +428,7 @@ $Kokila: "Kokila";
     user-select: none;
     font-size: 1.85vw;
     font-weight: 600;
+    font-style: italic;
 
     span {
       font-size: 6vw;

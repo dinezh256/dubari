@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { MdCheckCircle } from "react-icons/md";
-import language from ".././../assets/images/language.png";
+// import { MdCheckCircle } from "react-icons/md";
+// import language from ".././../assets/images/language.png";
 import blogo from "./../../assets/images/blogo.png";
 
 const NavBar = () => {
-  const [selectedlang, setSelectedLang] = useState([false, true, false]);
+  // const [selectedlang, setSelectedLang] = useState([false, true, false]);
   return (
     <nav className="nav">
       <ul className="navItems">
@@ -35,14 +35,14 @@ const NavBar = () => {
         </li>
 
         <li className="navListItems" id="largeWidth">
-          <Link href="/#footer">Contact Us</Link>
+          <Link href="/contact">Contact Us</Link>
         </li>
-        <li>
+        {/* <li>
           <LanguageDropdown
             selected={selectedlang}
             setLanguage={setSelectedLang}
           />
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
@@ -50,63 +50,63 @@ const NavBar = () => {
 
 export default NavBar;
 
-const LanguageDropdown = ({ selected, setLanguage }) => {
-  const languages = ["অসমীয়া", "English"];
+// const LanguageDropdown = ({ selected, setLanguage }) => {
+//   const languages = ["অসমীয়া", "English"];
 
-  return (
-    <>
-      <h6
-        className="languageBtn"
-        data-toggle="modal"
-        data-target="#languageModal"
-      >
-        <Image
-          alt="languageIcon"
-          draggable={false}
-          src={language}
-          className="languageIcon"
-          priority={true}
-        />
-      </h6>
+//   return (
+//     <>
+//       <h6
+//         className="languageBtn"
+//         data-toggle="modal"
+//         data-target="#languageModal"
+//       >
+//         <Image
+//           alt="languageIcon"
+//           draggable={false}
+//           src={language}
+//           className="languageIcon"
+//           priority={true}
+//         />
+//       </h6>
 
-      <div
-        className="modal popIn"
-        id="languageModal"
-        tabIndex="-1"
-        role="dialog"
-        aria-labelledby="languageModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog" role="document">
-          <div className="modal-content">
-            <div className="modal-body">
-              <h5 className="modal-title" id="languageModalLabel">
-                Language
-              </h5>
-              {languages.map((item, i) => (
-                <h5
-                  className="languageListItem"
-                  onClick={() => {
-                    let items = [false, false, false];
-                    items[i] = !items[i];
-                    setLanguage(items);
-                  }}
-                  key={i}
-                >
-                  {item}
-                  <MdCheckCircle
-                    className={
-                      selected[i]
-                        ? "selectedLang fadeIn"
-                        : "unselectedLang fadeOut"
-                    }
-                  />
-                </h5>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+//       <div
+//         className="modal popIn"
+//         id="languageModal"
+//         tabIndex="-1"
+//         role="dialog"
+//         aria-labelledby="languageModalLabel"
+//         aria-hidden="true"
+//       >
+//         <div className="modal-dialog" role="document">
+//           <div className="modal-content">
+//             <div className="modal-body">
+//               <h5 className="modal-title" id="languageModalLabel">
+//                 Language
+//               </h5>
+//               {languages.map((item, i) => (
+//                 <h5
+//                   className="languageListItem"
+//                   onClick={() => {
+//                     let items = [false, false, false];
+//                     items[i] = !items[i];
+//                     setLanguage(items);
+//                   }}
+//                   key={i}
+//                 >
+//                   {item}
+//                   <MdCheckCircle
+//                     className={
+//                       selected[i]
+//                         ? "selectedLang fadeIn"
+//                         : "unselectedLang fadeOut"
+//                     }
+//                   />
+//                 </h5>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
