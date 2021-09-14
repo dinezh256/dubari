@@ -13,7 +13,12 @@ const NavBar = () => {
         <li className="navTitleIcon">
           <Link href="/" passHref={true}>
             <span>
-              <Image alt="blogIcon" src={blogo} className="blogIcon" priority={true} />
+              <Image
+                alt="blogIcon"
+                src={blogo}
+                className="blogIcon"
+                priority={true}
+              />
             </span>
           </Link>
         </li>
@@ -26,11 +31,11 @@ const NavBar = () => {
         <ul style={{ flex: 1 }} />
 
         <li className="navListItems" id="largeWidth">
-          Blog
+          <Link href="/blog">Blog</Link>
         </li>
 
         <li className="navListItems" id="largeWidth">
-          Contact Us
+          <Link href="/#footer">Contact Us</Link>
         </li>
         <li>
           <LanguageDropdown

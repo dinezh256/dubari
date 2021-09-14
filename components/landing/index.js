@@ -38,7 +38,7 @@ const Landing = () => {
         </div>
         <div className="col-sm clientQuoteWrapper">
           <h1 className="landingPageQuote">
-            <span>❝</span> মোৰ গীতৰ লহৰে লহৰে দুৰ্জয় চাকনৈয়া কণ্ঠত বাজে
+            <span>❝</span>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;মোৰ গীতৰ লহৰে লহৰে দুৰ্জয় চাকনৈয়া কণ্ঠত বাজে
             ব্ৰজনিনাদ দানৱ ধ্বংস কৰা লৌহ মানৱ গঢ়ি পিতি দিম গীতৰ ছন্দে ছন্দে শোষক
             অসুৰ কৰিম নিধন যদি আছে চোকে কোণে |
           </h1>

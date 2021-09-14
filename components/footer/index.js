@@ -6,7 +6,7 @@ import footerLogo from "./../../assets/images/footerLogo.png";
 
 const Footer = () => {
   return (
-    <div className="footerWrapper">
+    <div className="footerWrapper" id="footer">
       <div className="row footer">
         <div className="col footerColumn">
           <Image alt="footerLogo" src={footerLogo} className="footerLogo" />
@@ -21,7 +21,7 @@ const Footer = () => {
           </h6>
           {/* <h6>Gallery</h6> */}
           <h6>
-            <Link href="/#about">Feedback</Link>
+            <Link href="/">Feedback</Link>
           </h6>
           <h6>
             <a
