@@ -624,8 +624,9 @@ $Kokila: "Kokila";
           justify-content: center;
           flex-direction: column;
           h2 {
-            font-size: 26px;
+            font-size: 24px;
           }
+          
         }
       }
     }
@@ -729,7 +730,8 @@ $Kokila: "Kokila";
         font-weight: 500;
         white-space: pre-line;
         color: rgb(63, 33, 33);
-        text-align: justify;
+        // text-align: justify;
+        font-style: italic;
       }
     }
   }
