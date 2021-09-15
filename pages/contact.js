@@ -35,7 +35,7 @@ const Contact = () => {
           poetic community will look up to him and his works with the warmest
           gratitude. Here, we wish to publish his works in the form of daily
           vlogs in a sequential manner. For adorning this website with my
-          father's precious collections, I humbly ask you for your help, support
+          father&apos;s precious collections, I humbly ask you for your help, support
           and love in my initiative.
         </h4>
         <div className="contactDetails">
