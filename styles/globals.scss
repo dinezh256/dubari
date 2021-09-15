@@ -142,12 +142,12 @@ $Kokila: "Kokila";
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
   li {
     color: Black;
     font-family: $MasqualeroDemiBold;
     font-size: 20px;
     list-style: none;
-    margin-top: 18px;
     user-select: none;
   }
 }
@@ -155,7 +155,9 @@ $Kokila: "Kokila";
 .navTitleIcon {
   margin-left: -10px !important;
   cursor: pointer;
-  max-width: 48px !important;
+  margin-top: 12px;
+  max-width: 48px;
+  min-width: 48px;
 }
 
 .navTitle {
@@ -164,7 +166,7 @@ $Kokila: "Kokila";
     font-family: $MasqualeroBlack !important;
     color: $DarkGreen;
   }
-  margin-top: 8px !important;
+  margin-top: 2px !important;
   margin-left: 15px;
   cursor: pointer;
 }
@@ -525,11 +527,18 @@ $Kokila: "Kokila";
 }
 
 @media only screen and (max-width: 500px) {
+  .navTitleIcon {
+    max-width: 36px;
+    min-width: 36px;
+  }
   .navTitle {
-    margin-top: 10px !important;
     span {
-      font-size: 27px !important;
+      font-size: 25px !important;
     }
+  }
+
+  .navListItems {
+    margin-left: 10px;
   }
 
   .blogIcon {
@@ -638,7 +647,7 @@ $Kokila: "Kokila";
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 430px) {
+@media only screen and (max-width: 768px) and (min-width: 500px) {
   .clientImage,
   .innerText {
     width: 85%;
