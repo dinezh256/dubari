@@ -1,9 +1,20 @@
 import React from "react";
+import Head from "next/head";
+import NavBar from "../components/navbar";
+import Footer from "../components/footer";
 
 const Contact = () => {
   return (
-    <div>
-      <div className="website">
+    <div className="website">
+      <Head>
+        <title>Dubari - Contact Us</title>
+        <meta
+          title="description"
+          content="Dubari - an assamese literature website"
+        />
+      </Head>
+      <NavBar />
+      <div className="contactInner">
         <h4>
           শ্ৰী সতীন্দ্ৰ কুমাৰ নাথ দেৱৰ সাহিত্যৰাজিক সামৰি দুবৰি নামেৰে এটি
           ৱেবচাইট মুকলি কৰা হৈছে। এই ৱেবছাইটৰ জৰিয়তে তেওঁৰ সাহিত্যৰ প্ৰকৃতি,
@@ -16,9 +27,13 @@ const Contact = () => {
           <br />
           <p>ধন্যবাদ।</p>
         </h4>
+        <div className="contactDetails">
+          <h3>Bibhuti Bikram Nath</h3>
+          <p>S/O Satindra Kumar Nath</p>
+          <p>Sapmari, Morigaon, Assam</p>
+        </div>
       </div>
-      <p>Bibhuti Bikram Nath</p>
-      <p>Sapmari, Morigaon, Assam</p>
+      <Footer />
     </div>
   );
 };

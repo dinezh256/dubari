@@ -23,18 +23,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  #largeWidth {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #smallWidth {
-    display: none;
-  }
-}
-
 // colors
 
 $ClearlyWhite: #e6e7e8;
@@ -145,8 +133,8 @@ $KaushanScriptRegular: "kaushanScriptRegular";
 $Kokila: "Kokila";
 
 .nav {
-  margin-top: 10px;
-  padding-inline-end: 20px;
+  padding-top: 10px;
+  padding-inline-end: 35px;
 }
 
 .navItems {
@@ -182,7 +170,7 @@ $Kokila: "Kokila";
 }
 
 .navListItems {
-  margin-right: 25px;
+  margin-left: 25px;
   transition: all 0.125s ease;
   a {
     color: $DarkGreen !important;
@@ -433,8 +421,8 @@ $Kokila: "Kokila";
     span {
       font-size: 6vw;
       position: absolute;
-      left: -4rem;
-      top: -4rem;
+      left: -2.5rem;
+      top: -2.5rem;
       color: rgb(228, 228, 228);
     }
   }
@@ -471,9 +459,7 @@ $Kokila: "Kokila";
 //footer
 
 .footerWrapper {
-  animation: fadeIn 0.25s ease;
-  animation-fill-mode: both;
-  animation-delay: 1s;
+  animation: fadeIn 0.25s ease both;
   background-color: $DeepGreen;
 }
 
@@ -486,8 +472,11 @@ $Kokila: "Kokila";
   display: flex;
   text-align: center;
   justify-content: center;
-  img {
-    width: 120px;
+  h1 {
+    font-size: 52px;
+    color: white;
+    margin-bottom: 56px;
+    margin-top: 28px;
   }
 
   h6 a {
@@ -529,15 +518,10 @@ $Kokila: "Kokila";
   h5 {
     color: rgb(190, 190, 190);
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 40px;
   }
-}
-
-.footerLogo {
-  width: 80px;
-  margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -594,7 +578,7 @@ $Kokila: "Kokila";
             font-size: 64px;
             z-index: 0;
           }
-          padding: 0 15px;
+          padding: 0 20px;
           margin-top: 5px;
           font-size: 20px;
           z-index: 1;
@@ -619,8 +603,11 @@ $Kokila: "Kokila";
       }
 
       .text {
-        padding: 2.5% 5% 7.5% 5%;
-        height: 100vh;
+        padding: 7.5% 10%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .textInner {
           display: flex;
@@ -628,23 +615,22 @@ $Kokila: "Kokila";
           justify-content: center;
           flex-direction: column;
           h2 {
-            font-size: 28px;
+            font-size: 26px;
           }
         }
       }
     }
 
     .website {
-      padding: 2.5% 5%;
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
 
       h4 {
         font-size: 28px;
       }
     }
+  }
+  .blogWrapper .blogExplorer {
+    padding-left: 30px !important;
   }
 }
 
@@ -722,7 +708,6 @@ $Kokila: "Kokila";
         font-weight: 500;
         white-space: pre-line;
         color: rgb(63, 33, 33);
-        text-align: justify;
       }
     }
   }
@@ -732,13 +717,65 @@ $Kokila: "Kokila";
   background-color: $LightBrown;
   width: 100%;
   color: rgb(63, 33, 33);
-  padding: 10%;
-  h4 {
-    line-height: 36px;
-    font-size: 28px;
-    user-select: none;
-    font-weight: 600;
-    text-align: justify;
+
+  .contactInner {
+    padding: 7.5% 10%;
+    h4 {
+      line-height: 36px;
+      font-size: 28px;
+      user-select: none;
+      font-weight: 600;
+      text-align: justify;
+    }
+
+    .contactDetails {
+      padding: 50px 0;
+      font-family: $MasqualeroBlack;
+      margin: auto;
+      width: max-content;
+      color: $DarkGreen;
+
+      p {
+        font-size: 20px;
+        margin-bottom: -5px;
+      }
+    }
+  }
+}
+
+// blog
+
+.blogWrapper {
+  background-color: $LightBrown;
+
+  .blogExplorer {
+    padding-left: 3.5%;
+    display: none;
+    h5 {
+      font-size: 18px;
+      a {
+        color: $DeepGreen;
+      }
+    }
+  }
+
+  .blogDiv {
+    padding: 3.5%;
+    padding-bottom: 100px;
+    h1 {
+      color: rgb(63, 33, 33);
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      margin: 0px 0;
+    }
   }
 }
 

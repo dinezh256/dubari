@@ -30,12 +30,12 @@ const NavBar = () => {
 
         <ul style={{ flex: 1 }} />
 
-        <li className="navListItems" id="largeWidth">
-          <Link href="/blog">Blog</Link>
+        <li className="navListItems">
+          <Link href="/blogs">Blogs</Link>
         </li>
 
-        <li className="navListItems" id="largeWidth">
-          <Link href="/contact">Contact Us</Link>
+        <li className="navListItems">
+          <Link href="/contact">Contact</Link>
         </li>
         {/* <li>
           <LanguageDropdown

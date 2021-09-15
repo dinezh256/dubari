@@ -6,15 +6,15 @@ import footerLogo from "./../../assets/images/footerLogo.png";
 
 const Footer = () => {
   return (
-    <div className="footerWrapper" id="footer">
+    <div className="footerWrapper">
       <div className="row footer">
         <div className="col footerColumn">
-          <Image alt="footerLogo" src={footerLogo} className="footerLogo" />
+          <h1>দুবৰি</h1>
         </div>
         <div className="w-100" />
         <div className="col footerColumn">
           <h6>
-            <Link href="/blog">Blog</Link>
+            <Link href="/blogs">Blog</Link>
           </h6>
           <h6>
             <Link href="/#about">About</Link>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="w-100" />
         <div className="col copyrightSection">
-          <h5>© Copyright - Dubori</h5>
+          <h5>© Copyright - Dubari</h5>
         </div>
       </div>
     </div>
