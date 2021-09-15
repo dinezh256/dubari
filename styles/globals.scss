@@ -642,8 +642,16 @@ $Kokila: "Kokila";
       font-size: 25px !important;
     }
   }
-  .blogWrapper .blogExplorer {
-    padding-left: 30px !important;
+  .blogWrapper {
+    .blogExplorer {
+      padding-left: 30px !important;
+    }
+
+    .blogDiv {
+      p {
+        font-size: 20px !important;
+      }
+    }
   }
 }
 
