@@ -27,6 +27,17 @@ const Contact = () => {
           <br />
           <p>ধন্যবাদ।</p>
         </h4>
+        <h4 className="english">
+          Our website &quot;Dubari&quot; has been released, showcasing the
+          various works of literature of Shri Satindra Kumar Nath. Through this
+          website, we wish to put forward our humble efforts in preserving the
+          contributions to literature of the nature-loving man. I hope that our
+          poetic community will look up to him and his works with the warmest
+          gratitude. Here, we wish to publish his works in the form of daily
+          vlogs in a sequential manner. For adorning this website with my
+          father's precious collections, I humbly ask you for your help, support
+          and love in my initiative.
+        </h4>
         <div className="contactDetails">
           <h3>Bibhuti Bikram Nath</h3>
           <p>S/O Satindra Kumar Nath</p>
