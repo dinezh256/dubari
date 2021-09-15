@@ -82,7 +82,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://www.dubori.com/logo192.png"
+            content="https://www.dubori.com/logo512.png"
           />
 
           <meta property="og:image:type" content="image/png" />
