@@ -74,7 +74,7 @@ class MyDocument extends Document {
             crossOrigin="true"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.dubori.com" />
+          <meta property="og:url" content="https://www.dubari.com" />
           <meta property="og:title" content="Dubori" />
           <meta
             property="og:description"
@@ -91,7 +91,7 @@ class MyDocument extends Document {
 
           
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.dubori.com" />
+          <meta property="twitter:url" content="https://www.dubari.com" />
           <meta property="twitter:title" content="Dubori" />
           <meta name="twitter:site" value="@satindra_nath" />
           <meta
@@ -100,7 +100,7 @@ class MyDocument extends Document {
           />
           <meta
             property="twitter:image"
-            content="https://www.dubori.com/twitter.png"
+            content="https://www.dubari.com/twitter.png"
           />
 
         </Head>
