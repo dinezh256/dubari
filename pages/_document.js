@@ -77,14 +77,14 @@ class MyDocument extends Document {
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.dubari.com" />
-          <meta property="og:title" content="Dubori" />
+          <meta property="og:title" content="Dubari" />
           <meta
             property="og:description"
             content="Satindra Kumar Nath - blogging website"
           />
           <meta
             property="og:image"
-            content="https://www.dubori.com/logo512.png"
+            content="https://www.dubari.com/logo512.png"
           />
 
           <meta property="og:image:type" content="image/png" />
@@ -94,7 +94,7 @@ class MyDocument extends Document {
           
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.dubari.com" />
-          <meta property="twitter:title" content="Dubori" />
+          <meta property="twitter:title" content="Dubari" />
           <meta name="twitter:site" value="@satindra_nath" />
           <meta
             property="twitter:description"
