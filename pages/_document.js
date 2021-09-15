@@ -6,10 +6,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charset="utf-8" />
-          <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />
           <meta name="theme-color" content="#000000" />
-          <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+          <link rel="apple-touch-icon" href="/logo192.png" />
+          <link rel="manifest" href="/manifest.json" />
           <link
             rel="preload"
             href="/fonts/Roboto/Roboto-Black.ttf"
