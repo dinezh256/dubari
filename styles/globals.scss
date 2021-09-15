@@ -140,6 +140,7 @@ $Kokila: "Kokila";
 .navItems {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   li {
     color: Black;
@@ -152,7 +153,6 @@ $Kokila: "Kokila";
 }
 
 .navTitleIcon {
-  margin-top: 8px !important;
   margin-left: -10px !important;
   cursor: pointer;
   max-width: 48px !important;
@@ -620,13 +620,17 @@ $Kokila: "Kokila";
         }
       }
     }
+  }
 
-    .website {
-      min-height: 100vh;
+  .website {
+    min-height: 100vh;
 
-      h4 {
-        font-size: 28px;
-      }
+    .contactInner {
+      padding: 9% !important;
+    }
+
+    h4 {
+      font-size: 25px !important;
     }
   }
   .blogWrapper .blogExplorer {
@@ -719,7 +723,7 @@ $Kokila: "Kokila";
   color: rgb(63, 33, 33);
 
   .contactInner {
-    padding: 7.5% 10%;
+    padding: 7.5% 25%;
     h4 {
       line-height: 36px;
       font-size: 28px;
