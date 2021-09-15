@@ -89,7 +89,7 @@ class MyDocument extends Document {
           <meta property="og:image:width" content="512" />
           <meta property="og:image:height" content="512" />
 
-          // Twitter
+          
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.dubori.com" />
           <meta property="twitter:title" content="Dubori" />
