@@ -31,11 +31,11 @@ const NavBar = () => {
         <ul style={{ flex: 1 }} />
 
         <li className="navListItems">
-          <Link href="/blogs">Blogs</Link>
+          <Link href="/blogs">blogs</Link>
         </li>
 
         <li className="navListItems">
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">contact</Link>
         </li>
         {/* <li>
           <LanguageDropdown
